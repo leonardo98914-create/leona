@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif; 
+}
+img{
+    width: 400px;
+   height: 300px;
+}
+
+.menu {
+    background-color: #95989a;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    text-align: center;
+}
+
+.Yamaha button{
+    position: absolute;
+    left: 700px;
+    padding: 20px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 5px 5px 15px #ff0101;
+    border-radius: 10px
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.Kawasaki button {
+    position: absolute;
+    left: 250px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 5px 5px 15px #02f46f;
+    border-radius: 10px;
+}
+.Yamaha button:hover {
+    background-color: #f20707;
+}
+.Kawasaki button:hover {
+    background-color: #02f46f;
+}
+.bajaj button {
+    position: absolute;
+    left: 250px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 5px 5px 15px #02f46f;
+    border-radius: 10px;
+}
+.bajaj button:hover {
+    background-color: #02f46f;
+}
+.CF button {
+     position: absolute;
+    left: 700px;
+    padding: 20px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 5px 5px 15px #02cdfb;
+    border-radius: 10px
+}
+.CF button:hover {
+    background-color: #02cdfb;
+}
